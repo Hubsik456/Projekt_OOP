@@ -45,7 +45,7 @@ namespace WpfApp3
         public bool Czy_Przycisk_Hamowanie_Jest_Wciśnięty = false;
         public bool Pauza = true;
 
-        private string Ścieżka_Do_Źródeł_Danych = "Źródła Danych"; // ../../../../Źródła Danych
+        private string Ścieżka_Do_Źródeł_Danych = "../../../../Źródła Danych"; // "../../../../Źródła Danych" // "Źródła Danych"
 
         /// <summary>
         /// Główny kod projektu.
