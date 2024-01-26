@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Źródła Danych\**" />
+    <EmbeddedResource Remove="Źródła Danych\**" />
+    <None Remove="Źródła Danych\**" />
+    <Page Remove="Źródła Danych\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Projekt_v1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>

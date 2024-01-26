@@ -1,0 +1,9 @@
+Typ: Osobówka;
+Model: XCeed;
+Marka: Kia;
+Rodzaj Napędu: Spalinowy;
+Skrzynia Biegów: Ręczna;
+Kolor: Granatowy;
+Współczynnik A: 0,68;
+Współczynnik B: 66,7;
+Współczynnik C: 0,0024;

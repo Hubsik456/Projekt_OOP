@@ -1,0 +1,9 @@
+Typ: Osobówka;
+Model: EQA;
+Marka: Mercedes;
+Rodzaj Napędu: Elektryczny;
+Skrzynia Biegów: Ręczna;
+Kolor: Szary;
+Współczynnik A: 0,64;
+Współczynnik B: 200;
+Współczynnik C: 0,002;

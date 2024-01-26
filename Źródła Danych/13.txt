@@ -1,0 +1,9 @@
+Typ: Osobówka;
+Model: Sandero;
+Marka: Dacia;
+Rodzaj Napędu: Spalinowy;
+Skrzynia Biegów: Ręczna;
+Kolor: Brązowy;
+Współczynnik A: 0,72;
+Współczynnik B: 83,5;
+Współczynnik C: 0,0019;

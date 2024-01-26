@@ -1,0 +1,9 @@
+Typ: Osobówka;
+Model: Taycan;
+Marka: Porsche;
+Rodzaj Napędu: Elektryczny;
+Skrzynia Biegów: Ręczna;
+Kolor: Czarny;
+Współczynnik A: 1,04;
+Współczynnik B: 260;
+Współczynnik C: 0,0017;

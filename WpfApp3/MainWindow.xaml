@@ -1,0 +1,166 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="Symulator Samochodu ~w67259" Height="500" Width="900">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Symulacja" IsSelected="True">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Grid.Column="0" Grid.Row="0">
+                        <Label Content="Typ: " HorizontalAlignment="Left" VerticalAlignment="Top" Height="26"/>
+                        <Label Content="Model: " HorizontalAlignment="Left" VerticalAlignment="Top" Height="26"/>
+                        <Label Content="Marka: " HorizontalAlignment="Left" VerticalAlignment="Top" Height="26"/>
+                        <Label Content="Kolor: " HorizontalAlignment="Left" VerticalAlignment="Top" Height="26"/>
+                        <Label Content="Rodzaj Napędu: " HorizontalAlignment="Left" VerticalAlignment="Top" Height="26"/>
+                        <Label Content="Skrzynia Biegów: " HorizontalAlignment="Left" VerticalAlignment="Top" Height="26"/>
+                        <Label Content="Prędkość: " Height="26"/>
+                        <Label Content="RPM: " Height="26"/>
+                        <Label Content="Bieg: " Height="26"/>
+                        <Label x:Name="Label_Paliwo" Content="Ilość Paliwa: " Height="26"/>
+                        <Label Content="Ilość Oleju: " Height="26"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="1" Grid.Row="0">
+                        <Label x:Name="Label_Typ" Content="..." HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                        <Label x:Name="Label_Model" Content="..." HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                        <Label x:Name="Label_Marka" Content="..." HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                        <Label x:Name="Label_Kolor" Content="..." HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                        <Label x:Name="Label_Rodzaj_Napędu" Content="..." HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                        <Label x:Name="Label_Skrzynia_Biegów" Content="..." HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                        <Label x:Name="Label_Prędkość" Content="..." Height="26"/>
+                        <Label x:Name="Label_RPM" Content="..." Height="26"/>
+                        <Label x:Name="Label_Bieg" Content="..." Height="26"/>
+                        <Label x:Name="Label_Ilość_Paliwa" Content="..." Height="26"/>
+                        <Label x:Name="Label_Ilość_Oleju" Content="..." Height="26"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="2" Grid.Row="0">
+                        <StackPanel>
+                            <CheckBox x:Name="Checkbox_Silnik" Content="Silnik" Click="GUI_Silnik"/>
+                            <Label Content="Biegi: "/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Margin="10">
+                            <Button Content="1" HorizontalAlignment="Left" Margin="0, 0, 10 ,0" VerticalAlignment="Top" Width="25" Height="25" Click="GUI_Biegi"/>
+                            <Button Content="3" HorizontalAlignment="Left" Margin="0, 0, 10 ,0" VerticalAlignment="Top" Width="25" Height="25" Click="GUI_Biegi"/>
+                            <Button Content="5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="25" Height="25" Click="GUI_Biegi"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Margin="10">
+                            <Button Content="2" Width="25" Height="25" Margin="0, 0, 10, 0" Click="GUI_Biegi"/>
+                            <Button Content="4" Width="25" Height="25" Margin="0, 0, 10, 0" Click="GUI_Biegi"/>
+                            <Button Content="0" Width="25" Height="25" Click="GUI_Biegi"/>
+
+                        </StackPanel>
+                        <Label Content="Sterowanie"/>
+
+                        <StackPanel Orientation="Horizontal" Margin="10">
+                            <Button Content="Przyśpiesz" HorizontalAlignment="Left" Margin="0, 0, 10, 0" VerticalAlignment="Top" PreviewMouseDown="GUI_Przytrzymanie_Przycisku" PreviewMouseUp="GUI_Puszczenie_Przycisku"/>
+                            <Button Content="Hamuj" HorizontalAlignment="Left" VerticalAlignment="Top" Width="58" PreviewMouseDown="GUI_Przytrzymanie_Przycisku" PreviewMouseUp="GUI_Puszczenie_Przycisku"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Margin="10">
+                            <Button Content="Zatankuj Paliwo" Click="GUI_Tankowanie" Margin="0, 0, 10, 0"/>
+                            <Button Content="Uzupełnij Olej" Click="GUI_Uzupełnienie_Oleju"/>
+                        </StackPanel>
+
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="3" Grid.Row="0">
+                        <Label Content="Log:" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                        <TextBox x:Name="TextBlock_Log" HorizontalAlignment="Stretch" TextWrapping="Wrap" VerticalAlignment="Stretch" Height="192" VerticalScrollBarVisibility="Auto"/>
+                        <Button Content="Wyczyść" HorizontalAlignment="Left" VerticalAlignment="Top" Click="GUI_Log_Wyczyść" Margin="0, 10, 0, 0"/>
+                    </StackPanel>
+                </Grid>
+
+            </TabItem>
+
+            <TabItem Header="Wybór Samochodu">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="4*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="5*"/>
+                    </Grid.RowDefinitions>
+
+                    <ScrollViewer Grid.Column="0" Grid.Row="0" ScrollViewer.CanContentScroll="True" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.HorizontalScrollBarVisibility="Auto">
+                        <DataGrid AutoGenerateColumns="False" Name="DataGrid_Lista_Samochodów" CanUserAddRows="False" SelectionChanged="DataGrid_Wybór_Z_Listy" IsSynchronizedWithCurrentItem="True" IsReadOnly="True" SelectionMode="Single" CanUserSortColumns="False">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn x:Name="DataGrid_Lista_Samochodów_6" Header="Typ"/>
+                                <DataGridTextColumn x:Name="DataGrid_Lista_Samochodów_1" Header="Model"/>
+                                <DataGridTextColumn x:Name="DataGrid_Lista_Samochodów_2" Header="Marka"/>
+                                <DataGridTextColumn x:Name="DataGrid_Lista_Samochodów_3" Header="Kolor"/>
+                                <DataGridTextColumn x:Name="DataGrid_Lista_Samochodów_4" Header="Rodzaj Napędu"/>
+                                <DataGridTextColumn x:Name="DataGrid_Lista_Samochodów_5" Header="Skrzynia Biegów"/>
+                                <DataGridTextColumn x:Name="DataGrid_Lista_Samochodów_7" Header="ID"/>
+                                <DataGridTextColumn x:Name="DataGrid_Lista_Samochodów_8" Header="Źródło"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </ScrollViewer>
+
+                    <StackPanel Grid.Column="1" Grid.Row="0">
+                        <Label Content="Nazwa Pliku: " Height="26"></Label>
+                        <Label Content="Typ: " Height="26"></Label>
+                        <Label Content="Marka: " Height="26"></Label>
+                        <Label Content="Model: " Height="26"></Label>
+                        <Label Content="Kolor: " Height="26"></Label>
+                        <Label Content="Rodzaj Napędu: " Height="26"></Label>
+                        <Label Content="Skrzynia Biegów: " Height="26"></Label>
+                        <Label Content="Współczynnik A: " Height="26"></Label>
+                        <Label Content="Współczynnik B: " Height="26"></Label>
+                        <Label Content="Współczynnik C: " Height="26"></Label>
+
+                        <Button Content="Zapisz Jako (Local)" Margin="10" Click="DataGrid_Dodaj_Nowy"/>
+                        <Button Content="Zapisz Jako (Plik)" Margin="10" Click="DataGrid_Dodaj_Nowy"/>
+                        <Button Content="Zapisz Jako (DB)" Margin="10" Click="DataGrid_Dodaj_Nowy"/>
+                        <Button Content="Eksportuj Do .csv" Margin="10" Click="csv_Eksport"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="2" Grid.Row="0">
+                        <TextBox x:Name="TextBox_Nazwa_Pliku_ID" Height="26"/>
+                        <ComboBox x:Name="ComboBox_Typ" Height="26">
+                            <ComboBoxItem Name="Osobówka">Osobówka</ComboBoxItem>
+                            <ComboBoxItem Name="Dostawczak">Dostawczak</ComboBoxItem>
+                            <ComboBoxItem Name="Tir">Tir</ComboBoxItem>
+                        </ComboBox>
+                        <TextBox x:Name="TextBox_Marka" Height="26"/>
+                        <TextBox x:Name="TextBox_Model" Height="26"/>
+                        <TextBox x:Name="TextBox_Kolor" Height="26"/>
+                        <ComboBox x:Name="ComboBox_Rodzaj_Napędu" Height="26">
+                            <ComboBoxItem Name="Spalinowy">Spalinowy</ComboBoxItem>
+                            <ComboBoxItem Name="Elektryczny">Elektryczny</ComboBoxItem>
+                        </ComboBox>
+                        <ComboBox x:Name="ComboBox_Skrzynia_Biegów" Height="26">
+                            <ComboBoxItem Name="Ręczna">Ręczna</ComboBoxItem>
+                        </ComboBox>
+                        <TextBox x:Name="TextBox_Współczynnik_A" Height="26"/>
+                        <TextBox x:Name="TextBox_Współczynnik_B" Height="26"/>
+                        <TextBox x:Name="TextBox_Współczynnik_C" Height="26"/>
+
+                        <Button Content="Wybierz" Margin="10" Click="DataGrid_Wybranie_Samochodu"></Button>
+                        <Button Content="Zapisz Zmiany" Margin="10" Click="DataGrid_Modyfikowanie_Samochodu"></Button>
+                        <Button Content="Usuń Samochód" Margin="10" Click="DataGrid_Usunięcie_Samochodu"></Button>
+                        <Button Content="Wczytaj Dane" Margin="10" Click="Załaduj_Dane"></Button>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

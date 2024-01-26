@@ -1,0 +1,9 @@
+Typ: Osobówka;
+Model: Model 5;
+Marka: Marka H3;
+Kolor: Czarny;
+Rodzaj Napędu: Spalinowy;
+Skrzynia Biegów: Ręczna;
+Współczynnik A: 0,123;
+Współczynnik B: 100;
+Współczynnik C: 0,234;

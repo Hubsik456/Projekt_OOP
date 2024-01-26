@@ -1,0 +1,9 @@
+Typ: Osobówka;
+Model: Fabia;
+Marka: Skoda;
+Rodzaj Napędu: Spalinowy;
+Skrzynia Biegów: Ręczna;
+Kolor: Zielony;
+Współczynnik A: 0,72;
+Współczynnik B: 50;
+Współczynnik C: 0,0018;

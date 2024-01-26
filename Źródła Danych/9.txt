@@ -1,0 +1,9 @@
+Typ: Osobówka;
+Model: Tiguan;
+Marka: Volkswagen;
+Rodzaj Napędu: Spalinowy;
+Skrzynia Biegów: Ręczna;
+Kolor: Czarny;
+Współczynnik A: 0,84;
+Współczynnik B: 100;
+Współczynnik C: 0,0023;

@@ -1,0 +1,9 @@
+Typ: Dostawczak;
+Model: Daily;
+Marka: Iveco;
+Rodzaj Napędu: Spalinowy;
+Skrzynia Biegów: Ręczna;
+Kolor: Biały;
+Współczynnik A: 0,6;
+Współczynnik B: 58,5;
+Współczynnik C: 0,0032;

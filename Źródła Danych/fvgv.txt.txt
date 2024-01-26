@@ -1,0 +1,9 @@
+Typ: Osobówka;
+Model: Model 3;
+Marka: Marka 3;
+Kolor: Czarny;
+Rodzaj Napędu: Spalinowy;
+Skrzynia Biegów: Ręczna;
+Współczynnik A: 0,8;
+Współczynnik B: 100;
+Współczynnik C: 0,0025;
