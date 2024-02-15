@@ -153,7 +153,6 @@ namespace WpfApp3.Klasy
             }
 
             Print_WPF(GUI);
-            //GUI.Log($"Ilość paliwa: {Napęd.Obecna_Ilość_Paliwa} / {Napęd.Max_Ilość_Paliwa}");
         }
 
         /// <summary>
@@ -161,7 +160,7 @@ namespace WpfApp3.Klasy
         /// </summary>
         public void Przyśpieszanie()
         {
-            if (Biegi.Obecny_Bieg == 0) // Na biegu 0 nie da się przyśpieszać więc...
+            if (Biegi.Obecny_Bieg == 0)
             {
                 Hamowanie_Silnikiem();
             }

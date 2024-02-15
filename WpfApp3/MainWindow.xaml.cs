@@ -45,7 +45,7 @@ namespace WpfApp3
         public bool Czy_Przycisk_Hamowanie_Jest_Wciśnięty = false;
         public bool Pauza = true;
 
-        private string Ścieżka_Do_Źródeł_Danych = "../../../../Źródła Danych"; // "../../../../Źródła Danych" // "Źródła Danych"
+        private string Ścieżka_Do_Źródeł_Danych = "../../../../Źródła Danych";
 
         /// <summary>
         /// Główny kod projektu.
@@ -266,7 +266,6 @@ namespace WpfApp3
                             VALUES ($Typ, $Model, $Marka, $Kolor, $Naped, $Biegi, $A, $B, $C)
                         ";
 
-                    //command.Parameters.AddWithValue("$ID", );
                     command.Parameters.AddWithValue("$Typ", ComboBox_Typ.Text);
                     command.Parameters.AddWithValue("$Model", TextBox_Model.Text);
                     command.Parameters.AddWithValue("$Marka", TextBox_Marka.Text);
@@ -308,7 +307,6 @@ namespace WpfApp3
                             DELETE FROM Samochody WHERE ID = $Usuwane_ID
                         ";
 
-                    //command.Parameters.AddWithValue("$ID", );
                     command.Parameters.AddWithValue("$Usuwane_ID", Samochody[Index_DataGrid].ID.ToString());
 
                     MessageBox.Show($"{command.CommandText.ToString()}");
@@ -416,9 +414,6 @@ namespace WpfApp3
                 foreach (string Linijka in File.ReadLines($"{Ścieżka_Do_Źródeł_Danych}/Dane.csv"))
                 {
                     string[] Dane = Linijka.Split(";");
-                    //Log(Dane[0]);
-
-                    //Log(Linijka);
 
                     Tworzenie_Samochodu(Dane[0], Dane[1], Dane[2], Dane[3], Dane[4], Dane[5], ".csv", "Dane.csv", float.Parse(Dane[6]), float.Parse(Dane[7]), float.Parse(Dane[8]));
                 }
@@ -446,8 +441,6 @@ namespace WpfApp3
         /// <param name="Współczynnik_C">Współczynnik C nowego samochodu, odpowiada za tempo zużywania paliwa.</param>
         private void Tworzenie_Samochodu(string Typ_Samochodu, string Marka, string Model, string Kolor, string Napęd, string Biegi, string Źródło, string Index, float Współczynnik_A, float Współczynnik_B, float Współczynnik_C)
         {
-            // TODO: Zrobić tu walidację, wypisać jakiś błąd w zależności z czego jest błąd (Lokalne, plik, db)
-            
             // Sprawdzanie czy dany element już się znajduje w liście
             for (int x = 0; x < Samochody.Count; x++)
             {
@@ -696,11 +689,7 @@ namespace WpfApp3
 
             Index_DataGrid = Index;
 
-            // Debug
-            //TextBox_WIP.Text = $"Zmiana Auta: \n{Index}";
-            
-            //MessageBox.Show($"Index: {Index}");
-            if (Index == -1) // z automatu po usunięciu wiersza, bez tego jest błąd
+            if (Index == -1)
             {
                 DataGrid_Lista_Samochodów.SelectedIndex = 0;
                 return;
@@ -712,7 +701,7 @@ namespace WpfApp3
             TextBox_Kolor.Text = Samochody[Index].Kolor;
             ComboBox_Rodzaj_Napędu.Text = Samochody[Index].Napęd.Typ;
             ComboBox_Skrzynia_Biegów.Text = Samochody[Index].Biegi.Typ;
-            TextBox_Współczynnik_A.Text = Samochody[Index].Napęd.Współczynnik_A.ToString(); // .Replace(",", ".")
+            TextBox_Współczynnik_A.Text = Samochody[Index].Napęd.Współczynnik_A.ToString();
             TextBox_Współczynnik_B.Text = Samochody[Index].Napęd.Współczynnik_B.ToString();
             TextBox_Współczynnik_C.Text = Samochody[Index].Napęd.Współczynnik_C.ToString();
 
@@ -915,7 +904,7 @@ namespace WpfApp3
 
                         MessageBox.Show($"{Dane}", "Uwaga", MessageBoxButton.OK, MessageBoxImage.Information);
 
-                        File.WriteAllText($"{Ścieżka_Do_Źródeł_Danych}/{Samochody[Index_DataGrid].ID}", Dane); // To musi być tu, bo inaczej popsuje się Index_DataGrid
+                        File.WriteAllText($"{Ścieżka_Do_Źródeł_Danych}/{Samochody[Index_DataGrid].ID}", Dane);
                         DataGrid_Lista_Samochodów.Items.Refresh();
 
                         // Sprawdzanie czy zmieniany jest typ samochodu, napędu lub skrzyni biegów. Wtedy trzeba utworzyć obiekt od nowa.
