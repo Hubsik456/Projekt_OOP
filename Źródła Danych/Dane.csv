@@ -1,59 +1,17 @@
-Osobówka;Marka 1;Model 1;Czarny;Spalinowy;Ręczna;0,8;100;0,0025
-Osobówka;Marka 2;Model 2;Czarny;Spalinowy;Ręczna;0,8;100;0,0025
-Osobówka;Marka 3;Model 3;Czarny;Spalinowy;Ręczna;0,8;100;0,0025
-Osobówka;Marka 4;Model 4;Czarny;Spalinowy;Ręczna;0,8;100;0,0025
-Osobówka;Marka 5;Model 5;Czarny;Spalinowy;Ręczna;0,8;100;0,0025
-Osobówka;Kia;XCeed;Granatowy;Spalinowy;Ręczna;0,68;66,7;0,0024
-Osobówka;Skoda;Fabia;Zielony;Spalinowy;Ręczna;0,72;50;0,0018
-Osobówka;Toyota;Corolla;Czerwony;Spalinowy;Ręczna;0,8;83,5;0,0025
-Osobówka;Audi11111;Q5123;Srebrny;Spalinowy;Ręczna;0,96;108,5;0,0009
-Osobówka;Dacia;Sandero;Brązowy;Spalinowy;Ręczna;0,72;83,5;0,0019
-Osobówka;Audi11111;Q534;Srebrny;Spalinowy;Ręczna;0,96;108,5;0,0028
-Osobówka;Mercedes;EQA;Szary;Elektryczny;Ręczna;0,64;200;0,002
-Osobówka;Porsche;Taycan;Czarny;Elektryczny;Ręczna;1,04;260;0,0017
-Dostawczak;Iveco;Daily;Biały;Spalinowy;Ręczna;0,6;58,5;0,0032
-Osobówka;Volvo;XC60;Złoty;Spalinowy;Ręczna;0,72;83,5;0,0026
-Osobówka;Volkswagen;Tiguan;Czarny;Spalinowy;Ręczna;0,84;100;0,0023
-Osobówka;Daciabbcccccc;Dusterbbbbbbbbb;Żółty;Spalinowy;Ręczna;0,66;66,7;0,0028
-Osobówka;Daciabbcccccc;Dusterbbbbbbbbb;Żółty;Spalinowy;Ręczna;0,66;66,7;0,0028
-Osobówka;Marka 3;Model 3;Czarny;Spalinowy;Ręczna;0,8;100;0,0025
-Osobówka;Marka H3;Model 5;Czarny;Spalinowy;Ręczna;0,123;100;0,234
-Osobówka;Marka H5;Model 5;Czarny;Spalinowy;Ręczna;0,9123;100;0,1234
-Osobówka;Marka H6;Model 5;Czarny;Spalinowy;Ręczna;0,1234;1005;0,4564
-Osobówka;Marka 4;Model 4;Czarny;Spalinowy;Ręczna;0,8;100;0,0025
-Tir;Volvo;Trucks;Czarny;Spalinowy;Ręczna;0,96;58,5;0,011
-Dostawczak;Ford;Transit;Czerwony;Spalinowy;Ręczna;0,74;50;0,0021
-Dostawczak;Fiat;Ducato;Biały;Spalinowy;Ręczna;0,64;58,5;0,0023
-Osobówka;Tesla;Y;Czarny;Elektryczny;Ręczna;0,56;220;0,0025
-Osobówka;Kia;EV6dfgdfg;Zielony;Elektryczny;Ręczna;1,04;250;0,0017
-Osobówka;Peugeot;E-208;Srebrny;Elektryczny;Ręczna;0,6;217;0,002
-Osobówka;Toyota;Yaris;Pomarańczowy;Spalinowy;Ręczna;0,7;83,5;0,0015
-Osobówka;Volkswagen;T-Roc;Szary;Spalinowy;Ręczna;1;91,7;0,0025
-Osobówka;Hyundai;I30;Biały;Spalinowy;Ręczna;0,8;58,5;0,004
-Osobówka;Daciabbcccccc;Dusterbbbbbbbbb;Żółty;Spalinowy;Ręczna;0,66;66,7;0,0028
-Osobówka;Marka 1;Model 1;Czarny;Spalinowy;Ręczna;0,8;100;0,0025
-Osobówka;Marka 2;Model 2;Czarny;Spalinowy;Ręczna;0,8;100;0,0025
-Osobówka;Marka 3;Model 3;Czarny;Spalinowy;Ręczna;0,8;100;0,0025
-Osobówka;Marka 4;Model 4;Czarny;Spalinowy;Ręczna;0,8;100;0,0025
-Osobówka;Marka 5;Model 5;Czarny;Spalinowy;Ręczna;0,8;100;0,0025
 Osobówka;Kia;XCeed;Granatowy;Spalinowy;Ręczna;0,68;66,7;0,0024
 Osobówka;Skoda;Fabia;Zielony;Spalinowy;Ręczna;0,72;50;0,0018
 Osobówka;Toyota;Corolla;Czerwony;Spalinowy;Ręczna;0,8;83,5;0,0025
 Osobówka;Dacia;Sandero;Brązowy;Spalinowy;Ręczna;0,72;83,5;0,0019
-Osobówka;Audi11111;Q534;Srebrny;Spalinowy;Ręczna;0,96;108,5;0,0028
+Osobówka;Audi;Q5;Srebrny;Spalinowy;Ręczna;0,96;108,5;0,0028
+Osobówka;Dacia;Spring;Brązowy;Elektryczny;Ręczna;0,5;200;0,0023
 Osobówka;Mercedes;EQA;Szary;Elektryczny;Ręczna;0,64;200;0,002
 Osobówka;Porsche;Taycan;Czarny;Elektryczny;Ręczna;1,04;260;0,0017
+Tir;Scania;S730;Czarny;Spalinowy;Ręczna;0,72;58,5;0,01
 Dostawczak;Iveco;Daily;Biały;Spalinowy;Ręczna;0,6;58,5;0,0032
+Dostawczak;Renault;Master;Biały;Spalinowy;Ręczna;0,64;58,5;0,0027
+Osobówka;Hyundai;Tucson;Srebrny;Spalinowy;Ręczna;0,7;83,5;0,0027
 Osobówka;Volvo;XC60;Złoty;Spalinowy;Ręczna;0,72;83,5;0,0026
 Osobówka;Volkswagen;Tiguan;Czarny;Spalinowy;Ręczna;0,84;100;0,0023
-Osobówka;Daciabbcccccc;Dusterbbbbbbbbb;Żółty;Spalinowy;Ręczna;0,66;66,7;0,0028
-Osobówka;Daciabbcccccc;Dusterbbbbbbbbb;Żółty;Spalinowy;Ręczna;0,66;66,7;0,0028
-Osobówka;Marka 3;Model 3;Czarny;Spalinowy;Ręczna;0,8;100;0,0025
-Osobówka;Marka H3;Model 5;Czarny;Spalinowy;Ręczna;0,123;100;0,234
-Osobówka;Marka H3;Model 5;Czarny;Spalinowy;Ręczna;0,123;100;0,234
-Osobówka;Marka H5;Model 5;Czarny;Spalinowy;Ręczna;0,9123;100;0,1234
-Osobówka;Marka H6;Model 5;Czarny;Spalinowy;Ręczna;0,1234;1005;0,4564
-Osobówka;Marka 4;Model 4;Czarny;Spalinowy;Ręczna;0,8;100;0,0025
 Tir;Volvo;Trucks;Czarny;Spalinowy;Ręczna;0,96;58,5;0,011
 Dostawczak;Ford;Transit;Czerwony;Spalinowy;Ręczna;0,74;50;0,0021
 Dostawczak;Fiat;Ducato;Biały;Spalinowy;Ręczna;0,64;58,5;0,0023
@@ -68,7 +26,6 @@ Osobówka;Kia;Sportage;Srebrny;Spalinowy;Ręczna;0,72;75;0,0043
 Osobówka;Hyundai;I30;Biały;Spalinowy;Ręczna;0,8;58,5;0,004
 Osobówka;Skoda;Octavia;Fioletowy;Spalinowy;Ręczna;1;100;0,0017
 Osobówka;Toyota;Rav4;Czarny;Spalinowy;Ręczna;0,74;110;0,0029
-Osobówka;Daciabbcccccc;Dusterbbbbbbbbb;Żółty;Spalinowy;Ręczna;0,66;66,7;0,0028
 Osobówka;Marka 1;Model 1;Czarny;Spalinowy;Ręczna;0,8;100;0,0025
 Osobówka;Marka 2;Model 2;Czarny;Spalinowy;Ręczna;0,8;100;0,0025
 Osobówka;Marka 3;Model 3;Czarny;Spalinowy;Ręczna;0,8;100;0,0025
@@ -88,10 +45,6 @@ Dostawczak;Renault;Master;Biały;Spalinowy;Ręczna;0,64;58,5;0,0027
 Osobówka;Hyundai;Tucson;Srebrny;Spalinowy;Ręczna;0,7;83,5;0,0027
 Osobówka;Volvo;XC60;Złoty;Spalinowy;Ręczna;0,72;83,5;0,0026
 Osobówka;Volkswagen;Tiguan;Czarny;Spalinowy;Ręczna;0,84;100;0,0023
-Osobówka;Marka H3;Model 5;Czarny;Spalinowy;Ręczna;0,123;100;0,234
-Osobówka;Marka H3;Model 5;Czarny;Spalinowy;Ręczna;0,123;100;0,234
-Osobówka;Marka H5;Model 5;Czarny;Spalinowy;Ręczna;0,9123;100;0,1234
-Osobówka;Marka H6;Model 5;Czarny;Spalinowy;Ręczna;0,1234;1005;0,4564
 Tir;Volvo;Trucks;Czarny;Spalinowy;Ręczna;0,96;58,5;0,011
 Dostawczak;Ford;Transit;Czerwony;Spalinowy;Ręczna;0,74;50;0,0021
 Dostawczak;Fiat;Ducato;Biały;Spalinowy;Ręczna;0,64;58,5;0,0023
@@ -106,44 +59,3 @@ Osobówka;Kia;Sportage;Srebrny;Spalinowy;Ręczna;0,72;75;0,0043
 Osobówka;Hyundai;I30;Biały;Spalinowy;Ręczna;0,8;58,5;0,004
 Osobówka;Skoda;Octavia;Fioletowy;Spalinowy;Ręczna;1;100;0,0017
 Osobówka;Toyota;Rav4;Czarny;Spalinowy;Ręczna;0,74;110;0,0029
-Osobówka;Daciabbcccccc;Dusterbbbbbbbbb;Żółty;Spalinowy;Ręczna;0,66;66,7;0,0028
-Osobówka;Audi11111;Q5123;Srebrny;Spalinowy;Ręczna;0,96;108,5;0,0009
-Osobówka;Audi1111122222;Q5123;Srebrny;Spalinowy;Ręczna;0,96;108,5;0,0009
-Osobówka;Marka 1;Model 1;Czarny;Spalinowy;Ręczna;0,8;100;0,0025
-Osobówka;Marka 2;Model 2;Czarny;Spalinowy;Ręczna;0,8;100;0,0025
-Osobówka;Marka 3;Model 3;Czarny;Spalinowy;Ręczna;0,8;100;0,0025
-Osobówka;Marka 4;Model 4;Czarny;Spalinowy;Ręczna;0,8;100;0,0025
-Osobówka;Marka 5;Model 5;Czarny;Spalinowy;Ręczna;0,8;100;0,0025
-Osobówka;Kia;XCeed;Granatowy;Spalinowy;Ręczna;0,68;66,7;0,0024
-Osobówka;Skoda;Fabia;Zielony;Spalinowy;Ręczna;0,72;50;0,0018
-Osobówka;Toyota;Corolla;Czerwony;Spalinowy;Ręczna;0,8;83,5;0,0025
-Osobówka;Dacia;Sandero;Brązowy;Spalinowy;Ręczna;0,72;83,5;0,0019
-Osobówka;Audi;Q5;Srebrny;Spalinowy;Ręczna;0,96;108,5;0,0028
-Osobówka;Dacia;Spring;Brązowy;Elektryczny;Ręczna;0,5;200;0,0023
-Osobówka;Mercedes;EQA;Szary;Elektryczny;Ręczna;0,64;200;0,002
-Osobówka;Porsche;Taycan;Czarny;Elektryczny;Ręczna;1,04;260;0,0017
-Tir;Scania;S730;Czarny;Spalinowy;Ręczna;0,72;58,5;0,01
-Dostawczak;Iveco;Daily;Biały;Spalinowy;Ręczna;0,6;58,5;0,0032
-Dostawczak;Renault;Master;Biały;Spalinowy;Ręczna;0,64;58,5;0,0027
-Osobówka;Hyundai;Tucson;Srebrny;Spalinowy;Ręczna;0,7;83,5;0,0027
-Osobówka;Volvo;XC60;Złoty;Spalinowy;Ręczna;0,72;83,5;0,0026
-Osobówka;Volkswagen;Tiguan;Czarny;Spalinowy;Ręczna;0,84;100;0,0023
-Osobówka;Marka H3;Model 5;Czarny;Spalinowy;Ręczna;0,123;100;0,234
-Osobówka;Marka H3;Model 5;Czarny;Spalinowy;Ręczna;0,123;100;0,234
-Osobówka;Marka H5;Model 5;Czarny;Spalinowy;Ręczna;0,9123;100;0,1234
-Osobówka;Marka H6;Model 5;Czarny;Spalinowy;Ręczna;0,1234;1005;0,4564
-Tir;Volvo;Trucks;Czarny;Spalinowy;Ręczna;0,96;58,5;0,011
-Dostawczak;Ford;Transit;Czerwony;Spalinowy;Ręczna;0,74;50;0,0021
-Dostawczak;Fiat;Ducato;Biały;Spalinowy;Ręczna;0,64;58,5;0,0023
-Osobówka;Tesla;Y;Czarny;Elektryczny;Ręczna;0,56;220;0,0025
-Osobówka;Kia;EV6;Zielony;Elektryczny;Ręczna;1,04;250;0,0017
-Osobówka;Peugeot;E-208;Srebrny;Elektryczny;Ręczna;0,6;217;0,002
-Osobówka;Toyota;Yaris;Pomarańczowy;Spalinowy;Ręczna;0,7;83,5;0,0015
-Osobówka;Dacia;Duster;Czerwony;Spalinowy;Ręczna;0,66;66,7;0,0028
-Osobówka;Volkswagen;T-Roc;Szary;Spalinowy;Ręczna;1;91,7;0,0025
-Osobówka;Skoda;Scala;Zielony;Spalinowy;Ręczna;0,88;75;0,0025
-Osobówka;Kia;Sportage;Srebrny;Spalinowy;Ręczna;0,72;75;0,0043
-Osobówka;Hyundai;I30;Biały;Spalinowy;Ręczna;0,8;58,5;0,004
-Osobówka;Skoda;Octavia;Fioletowy;Spalinowy;Ręczna;1;100;0,0017
-Osobówka;Toyota;Rav4;Czarny;Spalinowy;Ręczna;0,74;110;0,0029
-Osobówka;Daciabbcccccc;Dusterbbbbbbbbb;Żółty;Spalinowy;Ręczna;0,66;66,7;0,0028

@@ -1,9 +1,9 @@
 Typ: Osobówka;
-Model: Q534;
-Marka: Audi11111;
-Kolor: Srebrny;
+Model: Q5;
+Marka: Audi;
 Rodzaj Napędu: Spalinowy;
 Skrzynia Biegów: Ręczna;
+Kolor: Srebrny;
 Współczynnik A: 0,96;
 Współczynnik B: 108,5;
 Współczynnik C: 0,0028;

@@ -1,9 +1,0 @@
-Typ: Osobówka;
-Model: Dusterbbbbbbbbb;
-Marka: Daciabbcccccc;
-Kolor: Żółty;
-Rodzaj Napędu: Spalinowy;
-Skrzynia Biegów: Ręczna;
-Współczynnik A: 0,66;
-Współczynnik B: 66,7;
-Współczynnik C: 0,0028;

@@ -1,9 +1,0 @@
-Typ: Osobówka;
-Model: Q5123;
-Marka: Audi11111;
-Kolor: Srebrny;
-Rodzaj Napędu: Spalinowy;
-Skrzynia Biegów: Ręczna;
-Współczynnik A: 0,96;
-Współczynnik B: 108,5;
-Współczynnik C: 0,0009;
