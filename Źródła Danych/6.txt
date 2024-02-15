@@ -1,9 +1,0 @@
-Typ: Dostawczak;
-Model: Master;
-Marka: Renault;
-Rodzaj Napędu: Spalinowy;
-Skrzynia Biegów: Ręczna;
-Kolor: Biały;
-Współczynnik A: 0,64;
-Współczynnik B: 58,5;
-Współczynnik C: 0,0027;

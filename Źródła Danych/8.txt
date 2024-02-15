@@ -1,9 +1,0 @@
-Typ: Osobówka;
-Model: XC60;
-Marka: Volvo;
-Rodzaj Napędu: Spalinowy;
-Skrzynia Biegów: Ręczna;
-Kolor: Złoty;
-Współczynnik A: 0,72;
-Współczynnik B: 83,5;
-Współczynnik C: 0,0026;

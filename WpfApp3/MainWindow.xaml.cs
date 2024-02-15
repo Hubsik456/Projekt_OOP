@@ -276,7 +276,7 @@ namespace WpfApp3
                     command.Parameters.AddWithValue("$B", TextBox_Współczynnik_B.Text.Replace(",", "."));
                     command.Parameters.AddWithValue("$C", TextBox_Współczynnik_C.Text.Replace(",", "."));
 
-                    MessageBox.Show($"{command.CommandText.ToString()}");
+                    //MessageBox.Show($"{command.CommandText.ToString()}");
 
                     command.ExecuteNonQuery();
                 }
@@ -309,7 +309,7 @@ namespace WpfApp3
 
                     command.Parameters.AddWithValue("$Usuwane_ID", Samochody[Index_DataGrid].ID.ToString());
 
-                    MessageBox.Show($"{command.CommandText.ToString()}");
+                    //MessageBox.Show($"{command.CommandText.ToString()}");
 
                     command.ExecuteNonQuery();
                 }
@@ -362,7 +362,7 @@ namespace WpfApp3
                     command.Parameters.AddWithValue("$Nowe_B", TextBox_Współczynnik_B.Text.Replace(",", "."));
                     command.Parameters.AddWithValue("$Nowe_C", TextBox_Współczynnik_C.Text.Replace(",", "."));
 
-                    MessageBox.Show($"{command.CommandText.ToString()}");
+                    //MessageBox.Show($"{command.CommandText.ToString()}");
 
                     command.ExecuteNonQuery();
                 }
@@ -792,9 +792,10 @@ namespace WpfApp3
                 return;
             }
 
-            if (Samochody[Index_DataGrid].Źródło == "Localne")
+            if (Samochody[Index_DataGrid].Źródło == "Lokalne")
             {
                 Samochody.RemoveAt(Index_DataGrid);
+                MessageBox.Show($"Usunięto przykładowyc samochód.", "Usunięto samochód", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             else if (Samochody[Index_DataGrid].Źródło == ".txt")
             {
@@ -802,7 +803,8 @@ namespace WpfApp3
                 {
                     File.Delete($"{Ścieżka_Do_Źródeł_Danych}/{Samochody[Index_DataGrid].ID}");
                     Samochody.RemoveAt(Index_DataGrid);
-                    MessageBox.Show($"Usunięto plik {Samochody[Index_DataGrid].ID}", "Usunięto Plik", MessageBoxButton.OK, MessageBoxImage.Information);
+                    //MessageBox.Show($"Usunięto plik {Samochody[Index_DataGrid].ID}", "Usunięto Plik", MessageBoxButton.OK, MessageBoxImage.Information);
+                    MessageBox.Show($"Usunięto plik z danymi.", "Usunięto Plik", MessageBoxButton.OK, MessageBoxImage.Information);
                 }
                 catch (Exception Błąd)
                 {
@@ -815,7 +817,8 @@ namespace WpfApp3
                 {
                     DB_SQLite_Usuwanie();
                     Samochody.RemoveAt(Index_DataGrid);
-                    MessageBox.Show($"Usunięto Rekord o ID: {Samochody[Index_DataGrid].ID}", "Usunięto Rekord", MessageBoxButton.OK, MessageBoxImage.Information);
+                    //MessageBox.Show($"Usunięto Rekord o ID: {Samochody[Index_DataGrid].ID}", "Usunięto Rekord", MessageBoxButton.OK, MessageBoxImage.Information);
+                    MessageBox.Show($"Usunięto Rekord z bazy danych.", "Usunięto Rekord", MessageBoxButton.OK, MessageBoxImage.Information);
                 }
                 catch (Exception Błąd)
                 {
@@ -997,7 +1000,7 @@ namespace WpfApp3
             switch (Tryb)
             {
                 case "Zapisz Jako (Local)":
-                    Tworzenie_Samochodu(Typ, Marka, Model, Kolor, Napęd, Biegi, ".txt", Index_Max_Local.ToString(), Współczynnik_A, Współczynnik_B, Współczynnik_C);
+                    Tworzenie_Samochodu(Typ, Marka, Model, Kolor, Napęd, Biegi, "Local", Index_Max_Local.ToString(), Współczynnik_A, Współczynnik_B, Współczynnik_C);
                     Index_Max_Local++;
                     break;
                 case "Zapisz Jako (Plik)":

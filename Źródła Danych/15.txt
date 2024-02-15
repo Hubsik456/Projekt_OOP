@@ -1,9 +1,0 @@
-Typ: Osobówka;
-Model: Spring;
-Marka: Dacia;
-Rodzaj Napędu: Elektryczny;
-Skrzynia Biegów: Ręczna;
-Kolor: Brązowy;
-Współczynnik A: 0,5;
-Współczynnik B: 200;
-Współczynnik C: 0,0023;

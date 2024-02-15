@@ -1,9 +1,0 @@
-Typ: Tir;
-Model: S730;
-Marka: Scania;
-Rodzaj Napędu: Spalinowy;
-Skrzynia Biegów: Ręczna;
-Kolor: Czarny;
-Współczynnik A: 0,72;
-Współczynnik B: 58,5;
-Współczynnik C: 0,01;
